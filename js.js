@@ -1,7 +1,7 @@
 const base = 'https://api.github.com/graphql';
 const owner = 'rchowell';
 const repo = `${owner}.github.io`;
-const ro = 'c80f587afd93f8c0b7b830f854f7790595e62d3e';
+const ro = process.env.GITHUB_TOKEN_RO;
 
 
 // https://developer.github.com/v4/

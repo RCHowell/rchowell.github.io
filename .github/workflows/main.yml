@@ -21,4 +21,4 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         GITHUB_TOKEN_RO: ${{ secrets.GITHUB_TOKEN_RO }}
         BRANCH: gh-pages
-        FOLDER: build
+        FOLDER: .
