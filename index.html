@@ -1,2 +1,79 @@
-Yo
+<!DOCTYPE html>
+<html>
 
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300|Raleway:300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.min.css" />
+  <link rel="stylesheet" href="css.css" />
+  <script src="https://unpkg.com/handlebars@4.7.3/dist/handlebars.min.js"></script>
+  <script src="https://unpkg.com/moment@2.24.0/min/moment.min.js"></script>
+  <script src="js.js"></script>
+</head>
+
+<body onload="populate()">
+  <div id="main"></div>
+  <script id="main-template" type="text/x-handlebars-template">
+    <div id="header">
+      <div id="avatar">
+        <img src="{{ user.avatarUrl }}"/>
+      </div>
+      <div id="bio">
+        <h3>{{ user.name }}</h3>
+        <h4>{{ user.bio }}</h4>
+        <!-- <p>&#x1F4CD;{{ user.location }}</p> -->
+        <div id="social">
+          <a href="{{ user.url }}">Github</a>
+          <a href="https://www.linkedin.com/in/rchowell/">Linkedin</a>
+          <a href="https://www.instagram.com/rob.con.how/">Instagram</a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <h2>Projects</h2>
+    <div id="pins" class="row">
+      {{#each user.pinnedItems.nodes}}
+        <div class="column column-33">
+          <div class="pin">
+            {{#if this.name}}
+            <a href="{{ this.url }}"><h5>{{ this.name }}</h5></a>
+            {{else}}
+            <a href="{{ this.url }}"><h5>Gist</h5></a>
+            {{/if}}
+            <p class="ellipsis2">{{ this.description }}</p>
+            <p class="languages ellipsis1">
+            {{#each this.languages.nodes}}
+              <span class="dot" style="background-color: {{ this.color }};"></span>
+              <span class="language">{{ this.name }}</span>
+            {{/each}}
+            </p>
+          </div>
+        </div>
+      {{/each}}
+      <p class="more">more on <a href="{{ user.url }}">Github</a></p>
+    </div>
+    <hr>
+    <h2>Posts</h2>
+    <div id="posts">
+      {{#each repository.issues.nodes}}
+        <div class="post">
+          <a href="{{ this.url }}" class="post-title">{{ this.title }}</a>
+          <div class="tags">
+          {{#each this.labels.nodes}}
+          <a href="{{ this.url }}" class="tag" style="background-color: #{{ this.color }}">{{ this.name }}</a>
+          {{/each}}
+          </div>
+          <div class="post-footer">
+            <span class="date">{{ this.createdAt }}</span>
+            <!-- <a href="{{ this.url }}" class="discussion">discussion</a> -->
+          </div>
+        </div>
+        <hr class="post-divider">
+      {{/each}}
+      <p class="more"><a href="{{repository.url}}">Archive</a></p>
+    </div>
+  </script>
+
+</body>
+
+</html>
