@@ -1,7 +1,6 @@
 const Moment = require('moment');
 const Handlebars = require('handlebars');
 
-
 const base = 'https://api.github.com/graphql';
 const owner = 'rchowell';
 const repo = `${owner}.github.io`;
