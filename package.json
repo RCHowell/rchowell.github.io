@@ -12,7 +12,7 @@
     "obfuscate": "javascript-obfuscator build/bundle.js --config ./obfuscator.json --output build/js.js",
     "clean": "rm -rf build && mkdir -p build",
     "js": "npm run bundle && npm run obfuscate && rm build/bundle.js",
-    "copy": "cp css.css build && cp index.html build",
+    "copy": "cp css.css build && cp index.html build && cp .gitignore build",
     "build": "npm run clean && npm run js && npm run copy"
   },
   "devDependencies": {
