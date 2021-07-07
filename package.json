@@ -8,7 +8,7 @@
     "moment": "^2.24.0"
   },
   "scripts": {
-    "bundle": "browserify js.js | sed \"s/GITHUB_TOKEN_RO/$GITHUB_TOKEN_RO/g\" > build/bundle.js",
+    "bundle": "browserify js.js | sed \"s/GITHUB_TOKEN_RO/$GH_TOKEN_RO/g\" > build/bundle.js",
     "obfuscate": "javascript-obfuscator build/bundle.js --config ./obfuscator.json --output build/js.js",
     "clean": "rm -rf build && mkdir -p build",
     "js": "npm run bundle && npm run obfuscate && rm build/bundle.js",
