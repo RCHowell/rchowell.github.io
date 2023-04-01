@@ -1,0 +1,65 @@
+@import "https://cdn.jsdelivr.net/gh/asciidoctor/asciidoctor@2.0/data/stylesheets/asciidoctor-default.css";
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+.board {
+    margin: 1.5em auto;
+}
+
+#header h1 {
+    text-align: center;
+}
+
+#header .details {
+    justify-content: center;
+}
+
+.exampleblock > .content {
+    background: none;
+    border-color: #e0e0dc;
+    box-shadow: none;
+}
+
+h1, h2, h3, #toctitle, .sidebarblock > .content > .title, h4, h5, h6 {
+    font-family: "Open Sans",sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgba(0,0,0,.8);
+    text-rendering: optimizeLegibility;
+    margin-top: 1em;
+    margin-bottom: .5em;
+    line-height: 1.0125em;
+}
+
+body {
+    color: rgba(0,0,0,.8);
+    font-family: "IBM Plex Serif",serif;
+    line-height: 1;
+    cursor: auto;
+    -moz-tab-size: 4;
+    tab-size: 4;
+    word-wrap: anywhere;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.quoteblock blockquote::before {
+    display: none;
+    /* content: "\201c";
+    float: left;
+    font-size: 2.75em;
+    font-weight: bold;
+    line-height: .6em;
+    margin-left: -.6em;
+    color: #7a2518;
+    text-shadow: 0 1px 2px rgba(0,0,0,.1); */
+}
+
+.quoteblock blockquote, .quoteblock p {
+    color: rgba(0,0,0,.85);
+    font-size: 1rem;
+    line-height: 1.5;
+    word-spacing: .1em;
+    letter-spacing: 0;
+    font-style: italic;
+    text-align: justify;
+}
