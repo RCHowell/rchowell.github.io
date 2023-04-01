@@ -1,0 +1,71 @@
+= Haleakaslīde
+Feel the rhythm!; Feel the slide!
+
+[.board]
+image::img/board.png[Board]
+
+[quote,R. C. Howell, March 2023]
+____
+The Haleakaslīde is a double-sided sliding piece puzzle. Each game is played by sliding the tiles from the starting position to the desired position. xref:https://media.giphy.com/media/l1J9u3TZfpmeDLkD6/giphy.gif[No lifting!] 
+____
+
+== Color Game
+
+The Color Game begins 
+
+Remove the top-middle tile. Arrange the tiles such that no two same-colored tiles are touching.
+
+[admonition,caption="challenge"]
+NOTE: Try doing it in 24 moves. How about 20?
+
+== Dot Game
+
+Remove a blank tile. Arrange them such that the dot is in the center of the circle.
+
+[admonition,caption="challenge"]
+NOTE: Try doing it in 17 moves.
+
+== History
+
+Below is some history regarding these games.
+
+=== The Parking Lot Parable
+
+1971 Products of the Behavioral Sciences, Inc.
+
+Long ago, because of a reduction in Federal spending, it came to pass that the World's Greatest Engineer found himself unemployed. (WGE = NOJOB)
+
+So the WGE typed up a resumé, some personal references, and went to seek a job. Beceause he was clever, had good references, and worked well without superivsion, in about a year he was hired as a parking lot attendant. The pay was a little less than he was accustomed to; but he took the job anyhow, because it gave him a chance to be outdoors and he got an office with a window (something he had always wanted).
+
+Because he was the WGE, he tried to work out a procedure whereby he could park and unpark cars with a minimum number of moves. And instead of practicing with the actual cars, he made a model of the lot and used small plastic tiles to simulate the cars (see, I told you he was a good engineer!). (TILES = CARS)
+
+One day a rich millionaire, J Beresford Tipton, came to town and left his car in the WGE's parking lot. He saw the little model, and was so impressed that he bought it right there on the spot, giving the WGE a hundred dollars for the model and the diagrams. He even left a generous tip when he payed for his parking.
+
+Well, let me tell you! JBT made a puzzle out of the model and it sold like the proverbial hotcakes. He set up a trust fund for the WGE, and they all lived happily ever after. JBT got richer, and the WGE got famous.
+
+If you're rich, or famous, or rich _and_ famous, be respectful of parking lot attendants, they may know more about solving puzzles than you do.
+
+This parable becomes effective Feb. 1, 1971.
+
+[.text-center]
+image::img/parking.png[Parable]
+
+=== ZOT
+
+[.text-center]
+image::img/zot.png[ZOT]
+
+== Construction
+
+
+=== Base
+
+[.text-center]
+image::img/base.png[Base]
+
+=== Chip
+
+[.text-center]
+image::img/chip.png[Chip]
+
+=== Files
