@@ -9,7 +9,7 @@ ____
 The Haleakaslīde is a double-sided sliding piece puzzle. Each game is played by sliding the tiles from the starting position to the desired position. xref:https://media.giphy.com/media/l1J9u3TZfpmeDLkD6/giphy.gif[No lifting!] 
 ____
 
-== Game I — The Color Game
+== The Color Game
 
 Starting with all tiles organized by color (left image), you must arrange the tiles such that no two same-colored tiles are touching. 
 
@@ -18,7 +18,7 @@ image::img/colors.png[Color Game]
 [admonition,caption="challenge"]
 NOTE: Try doing it in 20 moves.
 
-== Game II — Dot Game
+== DOT Game
 
 Remove a blank tile. Arrange them such that the dot is in the center of the circle.
 
@@ -28,10 +28,9 @@ image::img/ZOT.png[ZOT]
 [admonition,caption="challenge"]
 NOTE: Try doing it in 17 moves.
 
-
 == Construction
 
-You can create your own Haleakaslīde by 3D printing the base, base plate, and 12 chips. It is constructed by placing round magnets (2mm thick, 5mm diameter) in each piece as well as each hole in the base. Once each magent is placed in the board, attach the base plate.
+You can create your own Haleakaslīde by 3D printing the base, base plate, and 12 tiles. It is constructed by placing round magnets (2mm thick, 5mm diameter) in each tiles as well as each hole in the base. After each magent is placed in the base, attach the base plate.
 
 .STL Files
 [cols="1,3a",frame=none,grid=rows]
@@ -42,21 +41,21 @@ You can create your own Haleakaslīde by 3D printing the base, base plate, and 1
 
 | Base Plate | link:assets/base_plate.stl[base_plate.stl]
 
-| Chip | link:assets/chip.stl[chip.stl]
+| Tile | link:assets/tile.stl[tile.stl]
 
 |===
 
-A chip has a narrow opening to feed a magnet into the larger internal pocket. Within the pocket, the magnet is free to spin and move in the z-axis — but it is constrained in both the x-axis and y-axis. This ensures chips stay centered on the base grid, while enabling the magnets to reverse polarity and produce a tactile click upon centering.
+Each tile has a narrow opening to feed a magnet into the larger internal pocket. Within the pocket, the magnet is free to spin as well as move in the z-axis — but it is constrained in both the x-axis and y-axis. This ensures tiles stay centered on the base grid, while enabling the magnets to reverse polarity and produce a tactile click upon centering.
 
 [%noheader,cols="1a,1a",grid=none,frame=none]
 |===
-|image::img/chip.png[Chip]
+|image::img/tile.png[Tile]
 |image::img/base.png[Base]
 |===
 
-== History
+== Origins
 
-=== Game I — The Parking Lot Parable
+=== The Parking Lot Parable
 
 [quote,Products of the Behavioral Sciences Inc.,1971]
 ____
@@ -75,7 +74,7 @@ If you're rich, or famous, or rich _and_ famous, be respectful of parking lot at
 This parable becomes effective Feb. 1, 1971.
 ____
 
-=== Game II — ZOT
+=== ZOT
 
 This game's first known appearance was in the 1942 edition of xref::https://www.amazon.com/Mathematical-Puzzles-Other-Brain-Twisters/dp/0517015447[_Mathematical Puzzles: And Other Brain Twisters_] by  Anthony S. Filipiak
 
@@ -86,7 +85,7 @@ ZOT is a sliding block puzzle which can be solved in degrees. The first attempt 
 OBJECT: Remove the title from the center of the target. Then by sliding one tile at a time to an empty space, move the little bull's eye into the target and close the target. Don't give up until you do it in 17 moves.
 
 [.text-center]
-image::img/ZOT.png[ZOT]
+image::img/zot.png[ZOT]
 
 So that people will not give up too easily, we purposely omit the solutions to our puzzles. However, if you do get stumped, you may send us 25¢ and a self-addressed, stamped envelope for the solution and for information on other good puzzles. 
 ____
