@@ -20,10 +20,10 @@ NOTE: Try doing it in 20 moves.
 
 == DOT Game
 
-Remove a blank tile. Arrange them such that the dot is in the center of the circle.
+Starting with the outer cirlce formed, and the dot top center (left image), you must arrange them such that the dot is in the center of the circle — forming a bullseye.
 
 [.text-center]
-image::img/ZOT.png[ZOT]
+image::img/dot.png[DOT]
 
 [admonition,caption="challenge"]
 NOTE: Try doing it in 17 moves.
