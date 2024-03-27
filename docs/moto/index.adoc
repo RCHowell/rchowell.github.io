@@ -1,0 +1,40 @@
+= Project Moto
+
+== Task Break Down
+
+- Create Wiring Diagram
+- Get required parts
+- Design harness
+
+== Headlight
+
+12V - 32W
+
+Green - Negative
+White - Hight Beam
+Blue - Low Beam
+Brown - Halo
+
+https://www.amazon.com/gp/product/B01N8YCLX2/ref=ppx_yo_dt_b_asin_title_o08_s00?ie=UTF8&th=1
+
+== Turn Signals
+
+Controls
+Red - Head Light
+White - Horn
+Yellow - Left Indicator
+Green - Right Indicator
+Brown - Indicator Positive
+
+https://www.amazon.com/gp/product/B0185P9UFC/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&th=1
+
+Signal
+Black - Negative
+Green - Running Light
+Yellow - Right Turn Signal
+White - Left Turn Signal
+
+https://www.amazon.com/gp/product/B08GSLB3LZ/ref=ppx_yo_dt_b_asin_title_o01_s00?ie=UTF8&psc=1
+
+
+https://www.amazon.com/12V-Relay-Fuse-Box-Automotive/dp/B0BCJGTWCD/ref=sr_1_6?keywords=motorcycle+fuse+box&qid=1681588229&s=automotive&sr=1-6
